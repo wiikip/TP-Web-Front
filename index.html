@@ -5,9 +5,37 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-  <p>I am so empty...</p>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />  </head>
+
+  <body> 
+  <header>
+    <h1 id="title">My Chat</h1>
+  </header>
+  <ul id="chat">
+    <li class="message">
+      Ceci est le premier message
+    </li>
+    <li class="message">
+      Ceci est le deuxième message
+    </li>
+    <li class="message">
+      Ceci est le troisième message
+    </li>
+    <li class="message">
+      Ceci est le quatrième message
+    </li>
+    <li class="message">
+      Ceci est le cinquième message
+    </li>
+  </ul>
+  <div id="messageSend">
+    <textarea id="messageInput" placeholder="Entrez votre message"></textarea>
+  <button class="material-symbols-outlined" id="sendButton">
+    send
+  </button>
+  </div>
+
+
   </body>
   <script src="script.js"></script>
 </html>
